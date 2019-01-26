@@ -106,12 +106,30 @@ public class MainDrive {
 		 */
 		
 //		3.3) 역방향 별찍기
-//		*****
-//		****
-//		***
+//		*****   i:0, 별 5개  합이 5로 일정. =>별 찍는 개수 = 5 - i 개
+//		****    i:1 ,별 4개
+//		***		i:2 ,별 3개	
 //		**
 //		*
 		
+//		첫번째 방법: i,j의 연관 관계 추측.
+		/*
+		 * for (int i = 0; i < 5; i++) { for (int j = 0; j <5-i; j++) {
+		 * System.out.print("*");
+		 * 
+		 * } System.out.println();
+		 * 
+		 * }
+		 */
+		
+//		두번째 방법: i값이 줄어들도록 for문을 감소형으로 작성.
+		/*
+		 * for (int i = 5; i > 0; i--) { // j가 도는 횟수를 5,4,3,2,1로 줄어들도록
+		 * 
+		 * for (int j = 0; j < i; j++) { System.out.print("*"); } System.out.println();
+		 * 
+		 * }
+		 */
 		
 		
 		
