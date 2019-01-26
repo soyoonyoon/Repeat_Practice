@@ -73,17 +73,26 @@ public class MainDrive {
 //		3.1) 정사각형 5*5 사이즈의 별찍기
 		
 //		세로 줄바꿈
-		for (int i = 1; i <= 5; i++) {
-			
-//			가로(ln지우기) 별찍기
-			for (int k = 1; k <= 5; k++) {
-				System.out.print("*");
-				
-			}
-			
-		System.out.println();
+		/*
+		 * for (int i = 1; i <= 5; i++) {
+		 * 
+		 * // 가로(ln지우기) 별찍기 for (int k = 1; k <= 5; k++) { System.out.print("*");
+		 * 
+		 * }
+		 * 
+		 * System.out.println();
+		 * 
+		 * }
+		 */
 		
-		}
+//		3.2) 기초 삼각형 별찍기
+//		*
+//		**
+//		***
+//		****
+//		*****
+		
+		
 		
 		
 	}
