@@ -96,14 +96,23 @@ public class MainDrive {
 //		세로 출력 담당 변수: i 바깥 for
 		
 //		반복문의 반복횟수? 가운데 조건식이 담당. => 조건식의 조건을 변수로 활용하자!
-		for (int i = 1; i <= 5; i++) {
-			for (int j = 1; j <= i; j++) {
-				System.out.print("*");
-				
-			}
-		System.out.println();
+		/*
+		 * for (int i = 1; i <= 5; i++) { for (int j = 1; j <= i; j++) {
+		 * System.out.print("*");
+		 * 
+		 * } System.out.println();
+		 * 
+		 * }
+		 */
 		
-		}
+//		3.3) 역방향 별찍기
+//		*****
+//		****
+//		***
+//		**
+//		*
+		
+		
 		
 		
 	}
